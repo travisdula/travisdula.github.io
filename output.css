@@ -275,6 +275,11 @@ body {
  * opt-out.
  */
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 /**
  * Reset form element properties that are easy to forget to
  * style explicitly so you don't inadvertently introduce
@@ -461,9 +466,8 @@ body {
   justify-content: space-between;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.font-bold {
+  font-weight: 700;
 }
 
 .text-lg {
@@ -471,9 +475,8 @@ body {
   line-height: 1.75rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.m-4 {
+  margin: 1rem;
 }
 
 * {
