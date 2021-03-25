@@ -212,7 +212,7 @@ h3 {
  */
 
 html {
-  font-family: JetBrains Mono, Font Awesome; /* 1 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -455,6 +455,10 @@ a {
   flex-grow: 1;
 }
 
+.font-mono {
+  font-family: JetBrains Mono, Font Awesome;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -463,8 +467,12 @@ a {
   font-weight: 400;
 }
 
-.font-bold {
-  font-weight: 700;
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .text-lg {
@@ -472,17 +480,33 @@ a {
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.m-6 {
-  margin: 1.5rem;
+.leading-normal {
+  line-height: 1.5;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
 }
 
 * {
