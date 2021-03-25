@@ -212,7 +212,7 @@ h3 {
  */
 
 html {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
+  font-family: JetBrains Mono, Font Awesome; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -258,7 +258,7 @@ body {
   box-sizing: border-box; /* 1 */
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
-  border-color: currentColor; /* 2 */
+  border-color: #e5e9f0; /* 2 */
 }
 
 /*
@@ -321,114 +321,9 @@ a {
  * https://github.com/mozdevs/cssremedy/issues/14
  */
 
-:root {
-  --color-background: 216, 222, 233;
-  --color-on-background: 46, 52, 64;
-  --color-variant-on-background-subtle: 76, 86, 106, 1;
-  --color-variant-on-background-muted: 97, 110, 136, 1;
-  --color-variant-on-background-active: 59, 66, 82, 1;
-  --color-variant-on-background-hover: 67, 76, 94, 1;
-  --color-variant-on-background-focus: 76, 86, 106, 1;
-  --color-surface: 229, 233, 240;
-  --color-on-surface: 59, 66, 82;
-  --color-foreground: 236, 239, 244;
-  --color-on-foreground: 67, 76, 94;
-  --color-attention-primary: 143, 188, 187;
-  --color-attention-secondary: 136, 192, 208;
-  --color-attention-tertiary: 129, 161, 193;
-  --color-attention-quaternary: 94, 129, 172;
-  --color-error: 191, 97, 106;
-  --color-on-error: 59.7806649, 24.216335099999995, 27.621430506383;
-  --color-danger: 208, 135, 112;
-  --color-on-danger: 87.28203239999999, 42.729170625, 28.69196760000001;
-  --color-warning: 235, 203, 139;
-  --color-on-warning: 144.97850069999998, 104.98716689999998, 25.004499300000006;
-  --color-success: 163, 190, 140;
-  --color-on-success: 61.585725239999974, 80.47593450000001, 45.49406549999999;
-  --color-uncommon: 180, 142, 173;
-  --color-on-uncommon: 46, 52, 64;
-  --color-polar-night-0: 46, 52, 64;
-  --color-polar-night-1: 59, 66, 82;
-  --color-polar-night-2: 67, 76, 94;
-  --color-polar-night-3: 76, 86, 106;
-  --color-snow-storm-0: 216, 222, 233;
-  --color-snow-storm-1: 229, 233, 240;
-  --color-snow-storm-2: 236, 239, 244;
-  --color-frost-0: 143, 188, 187;
-  --color-frost-1: 136, 192, 208;
-  --color-frost-2: 129, 161, 193;
-  --color-frost-3: 94, 129, 172;
-  --color-aurora-0: 191, 97, 106;
-  --color-aurora-1: 208, 135, 112;
-  --color-aurora-2: 235, 203, 139;
-  --color-aurora-3: 163, 190, 140;
-  --color-aurora-4: 180, 142, 173;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --color-background: 216, 222, 233;
-    --color-on-background: 46, 52, 64;
-    --color-variant-on-background-subtle: 76, 86, 106, 1;
-    --color-variant-on-background-muted: 97, 110, 136, 1;
-    --color-variant-on-background-active: 59, 66, 82, 1;
-    --color-variant-on-background-hover: 67, 76, 94, 1;
-    --color-variant-on-background-focus: 76, 86, 106, 1;
-    --color-surface: 229, 233, 240;
-    --color-on-surface: 59, 66, 82;
-    --color-foreground: 236, 239, 244;
-    --color-on-foreground: 67, 76, 94;
-    --color-attention-primary: 143, 188, 187;
-    --color-attention-secondary: 136, 192, 208;
-    --color-attention-tertiary: 129, 161, 193;
-    --color-attention-quaternary: 94, 129, 172;
-    --color-error: 191, 97, 106;
-    --color-on-error: 59.7806649, 24.216335099999995, 27.621430506383;
-    --color-danger: 208, 135, 112;
-    --color-on-danger: 87.28203239999999, 42.729170625, 28.69196760000001;
-    --color-warning: 235, 203, 139;
-    --color-on-warning: 144.97850069999998, 104.98716689999998, 25.004499300000006;
-    --color-success: 163, 190, 140;
-    --color-on-success: 61.585725239999974, 80.47593450000001, 45.49406549999999;
-    --color-uncommon: 180, 142, 173;
-    --color-on-uncommon: 46, 52, 64;
-    --color-polar-night-0: 46, 52, 64;
-    --color-polar-night-1: 59, 66, 82;
-    --color-polar-night-2: 67, 76, 94;
-    --color-polar-night-3: 76, 86, 106;
-    --color-snow-storm-0: 216, 222, 233;
-    --color-snow-storm-1: 229, 233, 240;
-    --color-snow-storm-2: 236, 239, 244;
-    --color-frost-0: 143, 188, 187;
-    --color-frost-1: 136, 192, 208;
-    --color-frost-2: 129, 161, 193;
-    --color-frost-3: 94, 129, 172;
-    --color-aurora-0: 191, 97, 106;
-    --color-aurora-1: 208, 135, 112;
-    --color-aurora-2: 235, 203, 139;
-    --color-aurora-3: 163, 190, 140;
-    --color-aurora-4: 180, 142, 173;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: 46, 52, 64;
-    --color-on-background: 236, 239, 244;
-    --color-variant-on-background-subtle: 229, 233, 240, 1;
-    --color-variant-on-background-muted: 183, 194, 215, 1;
-    --color-variant-on-background-active: 229, 233, 240, 1;
-    --color-variant-on-background-hover: 216, 222, 233, 1;
-    --color-variant-on-background-focus: 183, 194, 215, 1;
-    --color-surface: 59, 66, 82;
-    --color-on-surface: 236, 239, 244;
-    --color-foreground: 67, 76, 94;
-    --color-on-foreground: 236, 239, 244;
-    --color-attention-primary: 143, 188, 187;
-    --color-attention-secondary: 136, 192, 208;
-    --color-attention-tertiary: 129, 161, 193;
-    --color-attention-quaternary: 94, 129, 172;
-  }
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(46, 52, 64, var(--tw-bg-opacity));
 }
 
 .flex {
@@ -453,10 +348,6 @@ a {
 
 .flex-grow {
   flex-grow: 1;
-}
-
-.font-mono {
-  font-family: JetBrains Mono, Font Awesome;
 }
 
 .font-light {
@@ -532,6 +423,16 @@ a {
 
 .text-right {
   text-align: right;
+}
+
+.text-gray-100 {
+  --tw-text-opacity: 1;
+  color: rgba(236, 239, 244, var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgba(216, 222, 233, var(--tw-text-opacity));
 }
 
 @-webkit-keyframes spin {
