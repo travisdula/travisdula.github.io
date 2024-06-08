@@ -1,3 +1,70 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://trvs.me/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Travis A. Dula'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+# Google analytics code
+#googleAnalytics = "G-xxxxxxxxx"
+
+[params]
+# Meta description
+description = "A Tech Blog"
+
+# Appearance settings
+theme = 'auto'
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Howdy!'
+homeIntroContent = """
+I am a software engineer, recently graduated from UT Dallas with dual degrees in Computer Science and Economics.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2006 Jan 2'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/travisdula/"
+
+#[[params.social]]
+#name = "medium"
+#url = "https://medium.com/@user"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/travisdula"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+[[params.menu]]
+name = "resume"
+url = "/resume"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
