@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-I am currently seeking entry-level work as a Software Engineer. See my [résumé](../resume) if you're interested in hiring me and send me a message on [LinkedIn](https://www.linkedin.com/in/travisdula/).
+I am currently working as a Junior Software Engineer at Korbyt.
 
 I think that coffee, unsweetened milk tea, lifting, Linux, dynamic window managers, functional programming, and good lights are all cool.
 
