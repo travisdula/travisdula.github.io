@@ -61,7 +61,7 @@ name = "about"
 url = "/about"
 
 [[params.menu]]
-name = "resume"
+name = "résumé"
 url = "/resume"
 
 # Syntax highligth on code blocks
