@@ -11,7 +11,7 @@ tag = 'tags'
 
 [params]
 # Meta description
-description = "A Tech Blog"
+description = "Travis's blog and portfolio"
 
 # Appearance settings
 theme = 'auto'

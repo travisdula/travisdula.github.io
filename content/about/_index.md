@@ -30,6 +30,6 @@ What matters to me in a laptop is support for my USB-C hub, low weight, proper s
 - Lamp - PHIVE LED Desk Lamp
 - Keyboard - GMMK Compact
 - Mice - Kensington Orbit (daily use), Logitech G305 (gaming, hardly used)
-- Headphones - Philips SHP9500, Apple EarPods (3.5mm Headphone Plug)
+- Headphones - Philips SHP9500, Apple EarPods (3.5mm Headphone Plug), Linsoul SIMGOT EW200 with Apple USB-C to 3.5 mm Adapter
 - Cube timer
 - Sticky Notes (useful for daily tasks)

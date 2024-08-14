@@ -2,7 +2,7 @@
 title: "Résumé"
 ---
 
-For a concise version of my résumé in PDF, [click here](./Travis_Dula_Resume.pdf)
+For a concise PDF, [click here](./Travis_Dula_Resume.pdf)
 
 ## Education
 
@@ -23,6 +23,9 @@ August 2020 - May 2024
 - **Languages**    Python, C, C++, Java, HTML, JavaScript, TypeScript, Racket, SQL, OCaml, Coq, R, Stata, Prolog
 
 ## Experience
+
+### Junior Software Engineer - Korbyt
+July 2024 - Present
 
 ### Software Engineering Intern - Capital One
 June 2023 ‑ August 2023

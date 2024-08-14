@@ -1,6 +1,7 @@
 +++
 title = 'Super Software: Web Browser'
 date = 2024-07-13
+tags = ["software"]
 +++
 
 In the modern era, there's no application more used on the personal computer than the web browser.
