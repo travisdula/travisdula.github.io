@@ -19,7 +19,7 @@ theme = 'auto'
 # Intro on main page, content is markdown
 homeIntroTitle = 'Howdy!'
 homeIntroContent = """
-I am a software engineer, recently graduated from UT Dallas with dual degrees in Computer Science and Economics.
+I am a software engineer at Korbyt, and I graduated from UT Dallas with dual degrees in Computer Science and Economics in spring of 2024.
 """
 
 # Collection to display on home
