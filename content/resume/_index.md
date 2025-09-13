@@ -12,20 +12,25 @@ For a concise PDF, [click here](./Travis_Dula_Resume.pdf)
 
 August 2020 - May 2024
 - 3.769/4.000 GPA
-- Honors programs: National Merit Scholars, Collegium V, CS2
+- Honors programs: National Merit Scholars, Collegium V, CS^2
 - CS Electives: AI, ML, Distributed Systems, Computer Networks, Advanced Programming Languages
 - Economics Electives: Law and Economics, Industrial Organization, Economics of Health, Economics of Education, Managerial Economics, International Trade, Sports Economics, Economics of Crime, Game Theory, Business and Economic Forecasting
 - Dual degree
 
 ## Skills
 
-- **Frameworks & Tools**    Tailwind CSS, ReactJS, AWS, Git, GitHub, Linux, Jenkins, Kafka, Spring Boot, Postman
-- **Languages**    Python, C, C++, Java, HTML, JavaScript, TypeScript, Racket, SQL, OCaml, Coq, R, Stata, Prolog
+- **Development & Data** - JavaScript, TypeScript, React, PHP, Laravel, Python, SQL, PostgreSQL, jQuery, C, C++, Java
+- **Cloud & Infrastructure** - Docker, Terraform, AWS Lambda, AWS Step Functions, AWS VPC, S3, ECS, EC2, RDS
+- **Tools & Testing** - Git, GitHub, Azure DevOps, Azure Pipelines, Postman, Jest, PHPUnit, Linux
 
 ## Experience
 
 ### Junior Software Engineer - Korbyt
 July 2024 - Present
+
+- Architected and deployed automated data pipeline as sole developer, using Node.js, PostgreSQL, and S3 to fulfill major customer's need for complete content records, providing complete flexibility in data analysis
+- Led team to develop scalable web capture service using Docker on AWS Lambda and Playwright, allowing customers to securely display dashboards with unique authentication flows on digital signage players, helping to secure contracts
+- Collaborated on four-person team to rewrite legacy PHP by refactoring SSR pages into modern React SPA with Laravel Inertia backend, significantly improving page performance, maintainability, and user experience
 
 ### Software Engineering Intern - Capital One
 June 2023 ‑ August 2023
