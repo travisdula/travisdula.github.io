@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-I am currently working as a Junior Software Engineer at Korbyt.
+I am currently working as a Software Engineer at Korbyt.
 
 I think that coffee, unsweetened milk tea, lifting, Linux, dynamic window managers, functional programming, and good lights are all cool.
 
